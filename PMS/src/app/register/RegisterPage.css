@@ -1,0 +1,30 @@
+/* RegisterPage.css */
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+/* Make sure the form is not too large */
+form {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: hsl(219, 88%, 61%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Adjust container height for better form visibility */
+.container {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

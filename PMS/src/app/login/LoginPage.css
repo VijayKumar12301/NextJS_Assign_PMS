@@ -1,0 +1,102 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light background for the page */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container and Form Layout */
+.container {
+    min-height: 100vh; /* Ensures the container takes up full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling the Form */
+.form-container {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%;
+    max-width: 400px; /* Makes the form responsive */
+}
+
+/* Title */
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px; /* Space between title and form fields */
+}
+
+/* Form Input Fields */
+.form-group label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Form Controls (Input Fields) */
+.form-control {
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* Focused and Invalid Form Controls */
+.form-control:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue shadow on focus */
+}
+
+/* Error Message Styling */
+.form-control.is-invalid {
+    border-color: #e74c3c; /* Red border for invalid input */
+}
+
+.invalid-feedback {
+    font-size: 0.875rem;
+    color: #e74c3c;
+}
+
+/* Button Styling */
+button[type='submit'] {
+    background-color: #a4df46;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type='submit']:hover {
+    background-color: #00b300; /* Darker blue on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 30px;
+        max-width: 100%;
+    }
+}
+
+/* Footer Styling (if you add footer) */
+footer {
+    background-color: #f1f1f1;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.875rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
